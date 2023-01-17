@@ -133,6 +133,25 @@ main {
   text-align: right;
   font-weight: 800;
 }
+
+/* Call to Action */
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 15rem;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+
+  background-color: #3882f6;
+  color: white;
+}
+
+.call-to-action button {
+  border: 1px solid white;
+}
+
 /* Footer */
 
 footer {
