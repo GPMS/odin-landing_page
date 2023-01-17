@@ -79,6 +79,39 @@ main {
   flex: 1;
 }
 
+/* Random */
+
+.random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.random h1 {
+  font-size: 36px;
+  font-weight: 800px;
+  color: #1f2937;
+}
+
+.random .container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.container img {
+  border: 2px solid blue;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container .item {
+  width: 150px;
+}
 /* Footer */
 
 footer {
