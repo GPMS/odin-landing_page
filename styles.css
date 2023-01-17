@@ -112,6 +112,27 @@ main {
 .container .item {
   width: 150px;
 }
+
+/* Quote */
+
+.quote {
+  display: flex;
+  padding: 5rem 35rem;
+  flex-direction: column;
+
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote strong {
+  text-align: right;
+  font-weight: 800;
+}
 /* Footer */
 
 footer {
