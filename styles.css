@@ -50,6 +50,8 @@ button {
 
 .top {
   display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
   justify-content: space-between;
   padding: 5vh 15vw 10vh;
 }
@@ -61,12 +63,12 @@ button {
 }
 
 .top .left {
-  width: 30vw;
+  width: 30rem;
 }
 
 .top img {
-  width: 45vw;
-  height: 45vh;
+  width: 50rem;
+  height: 20rem;
   object-fit: none;
   background-color: gray;
   display: flex;
